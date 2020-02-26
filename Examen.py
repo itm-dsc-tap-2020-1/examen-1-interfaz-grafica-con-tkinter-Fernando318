@@ -7,7 +7,8 @@ def calif():
         if(p1.get()=="Mujer"): puntaje+=20
         if(p2.get()=="Liberen a willy"): puntaje+=20
         if(p3.get()=="2000"): puntaje+=20
-        cal="La puntuacion es: "+puntaje.str()
+        if(opcion1!=)
+        cal="La puntuacion es: "+str(puntaje)
         mbox.showinfo("Calificacion",cal)
     else: mbox.showinfo("Advertencia", "Llene todos los campos")
 ventana=tk.Tk()
